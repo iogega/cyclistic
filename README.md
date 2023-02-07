@@ -9,6 +9,4 @@ Therefore, my team wants to understand how casual riders and annual members use 
 From these insights, the team will design a new marketing strategy to convert casual riders into annual members.
 But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-My written report on the data analysis process in the XXXXX file above.
-
-My case study visuals: PROVIDE LINK
+My written report and visuals are amongst the files of this project.
