@@ -66,6 +66,11 @@ WHERE true
 DELETE FROM `cyclistic-344413.trip_data.combined_data`
 WHERE ride_length <= 0 OR ride_length > 1560
 
+-- Total rides by rider type
+SELECT member_casual, COUNT(DISTINCT ride_id)
+FROM `cyclistic-344413.trip_data.combined_data`
+GROUP BY member_casual
+
 -- Average ride length
 SELECT member_casual, AVG(ride_length) AS average_ride_length
 FROM `cyclistic-344413.trip_data.combined_data`
