@@ -17,7 +17,7 @@ FROM `cyclistic-344413.trip_data.combined_data`
 WHERE started_at BETWEEN '2021-06-01 00:00:00' AND '2021-08-31 23:59:59'
 GROUP BY member_casual
 
--- Autum
+-- Autumn
 SELECT member_casual, AVG(ride_length) AS avg_ride_length
 FROM `cyclistic-344413.trip_data.combined_data`
 WHERE started_at BETWEEN '2021-09-01 00:00:00' AND '2021-11-30 23:59:59'
